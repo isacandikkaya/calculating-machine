@@ -1,7 +1,9 @@
-#
+#Math modülündeki hazır fonksiyonları kullanarak gelişmiş bir hesap makinesi geliştirmeye çalışın.
 
 print("""*********
+
 Hesap Makinesi 
+
 Toplama = 1
 Çıkarma = 2
 Çarpma = 3
@@ -16,7 +18,11 @@ cos u bulmak için = 11
 tanjantı bulmak için = 12
 cotanjantı bulmak için = 13
 Çıkmak için q ya basın...
+
+
 #sin cos tan cot bunlarda radyan cisnsinden buluyor.
+
+
 *********""")
 import time
 import math
@@ -127,6 +133,9 @@ while True:
         time.sleep(1)
         x = math.cos(sayı1)/math.sin(sayı1)
         print("cotanjant {} = {} ".format(sayı1,x))
+
+
+
 
 
 
