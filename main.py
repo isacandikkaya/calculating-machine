@@ -121,13 +121,13 @@ while True:
         time.sleep(1)
         print("cos {} = {} ".format(sayı1,math.cos(sayı1)))
 
-    elif(sayı1 == 12):
+    elif(işlem == 12):
         sayı1 = int(input(" Dereceyi giriniz : "))
         print("işleminiz yapılıyor...")
         time.sleep(1)
         print("tanjant {} = {} ".format(sayı1,math.tan(sayı1)))
 
-    elif(sayı1 == 13):
+    elif(işlem == 13):
         sayı1 = int(input(" Dereceyi giriniz : "))
         print("işleminiz yapılıyor...")
         time.sleep(1)
